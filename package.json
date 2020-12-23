@@ -1,0 +1,30 @@
+{
+    "name": "eslint-config-strictest",
+    "version": "0.1.0",
+    "description": "Super strict eslint rules for more reliable software",
+    "keywords": [
+        "lint",
+        "eslint",
+        "strict",
+        "eslintconfig",
+        "eslint-plugin",
+        "reliable",
+        "reliability",
+        "react",
+        "react-hooks",
+        "typescript",
+        "typescript-eslint",
+        "unicorn"
+    ],
+    "scripts": {
+        "release": "np",
+        "prettier": "prettier --write --config .prettierrc.yaml {*.js,*.json}"
+    },
+    "devDependencies": {
+        "np": "^7.0.0",
+        "prettier": "^2.2.1"
+    },
+    "peerDependencies": {
+        "eslint": ">=7.0.0"
+    }
+}
