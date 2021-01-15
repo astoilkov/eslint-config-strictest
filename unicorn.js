@@ -5,6 +5,9 @@ module.exports = {
         // 'unicorn/numeric-separators-style': 'error'
         // 'unicorn/prefer-ternary': 'error'
         // 'unicorn/prefer-date-now`: 'error'
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/releases/tag/v26.0.0
 
         // experimental
         'unicorn/prefer-set-has': 'error',
