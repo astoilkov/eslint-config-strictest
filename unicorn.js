@@ -8,6 +8,8 @@ module.exports = {
         // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
         // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
         // https://github.com/sindresorhus/eslint-plugin-unicorn/releases/tag/v26.0.0
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/releases/tag/v27.0.0
+        // https://github.com/sindresorhus/eslint-plugin-unicorn/releases/tag/v29.0.0
 
         // experimental
         'unicorn/prefer-set-has': 'error',

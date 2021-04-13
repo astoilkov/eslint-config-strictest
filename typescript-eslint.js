@@ -9,6 +9,7 @@ module.exports = {
         // '@typescript-eslint/no-confusing-void-expression': 'error'
         // '@typescript-eslint/unbound-method': 'error'
         // '@typescript-eslint/non-nullable-type-assertion-style': 'error'
+        // https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.21.0
 
         // experimental
         // '@typescript-eslint/no-unsafe-assignment': 'error',
@@ -50,6 +51,7 @@ module.exports = {
             },
         ],
         '@typescript-eslint/dot-notation': 'error',
+        '@typescript-eslint/return-await': ['error', 'always'],
         '@typescript-eslint/prefer-enum-initializers': 'error', // undocumented
 
         /**
