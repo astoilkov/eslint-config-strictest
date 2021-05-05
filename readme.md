@@ -6,6 +6,17 @@
 
 ## Why?
 
--   No exception. I have been using this library in a production app and we have close to zero exceptions.
--   Less bugs. Catching a bug with ESLint rule is extremely rare. Howerver, there are a few rules that do this very successfully.
+- No exception. I have been using this library in a production app and we have close to zero exceptions.
+- Less bugs. Catching a bug with ESLint rule is extremely rare. Howerver, there are a few rules that do this very successfully.
+- Documented. Every decision for each rule is documented. For now the documentation is scattered through comments and documents. 
+- Modular. There are multiple rule categories — you turn on the relevant ones for you.
+
+## Configurations
+
+- `typescript-eslint`
+- `unicorn`
+- `react`
+- `react-hooks`
+- `promise`
+- `eslint`
 
