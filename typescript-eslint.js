@@ -4,7 +4,6 @@ module.exports = {
         // '@typescript-eslint/no-implicit-any-catch': 'error',
         // '@typescript-eslint/no-loop-func': 'error',
         // '@typescript-eslint/consistent-indexed-object-style': 'error'
-        // '@typescript-eslint/no-duplicate-imports': 'error'
         // '@typescript-eslint/no-unnecessary-type-constraint': 'error'
         // '@typescript-eslint/no-confusing-void-expression': 'error'
         // '@typescript-eslint/unbound-method': 'error'
@@ -156,6 +155,18 @@ module.exports = {
          * Good: `for (const element of array) {`
          */
         '@typescript-eslint/prefer-for-of': 'error',
+
+        /**
+         * #improves-code-understanding
+         * @example
+         * // Bad
+         * import { find } from 'module';
+         * import { merge } from 'module';
+         * // Good
+         * import { find, merge } from 'module';
+         */
+        "no-duplicate-imports": "off",
+        '@typescript-eslint/no-duplicate-imports': ['error'],
 
         /**
          * #improves-code-understanding, #consistency
