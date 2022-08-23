@@ -33,8 +33,6 @@ module.exports = {
         // 👀
         '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
-        '@typescript-eslint/member-ordering': 'error',
-        '@typescript-eslint/method-signature-style': 'error',
         '@typescript-eslint/prefer-reduce-type-parameter': 'error',
         '@typescript-eslint/no-invalid-void-type': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',

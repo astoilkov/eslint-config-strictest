@@ -773,13 +773,5 @@ module.exports = {
          * Good: `const friend = new person.Acquaintance()`
          */
         'new-cap': 'error',
-
-        /**
-         * #consistency, #formatting
-         * Setting `markers: [,]` in order to allow commenting out function parameters.
-         * Bad: `//This is a comment with no whitespace at the beginning`
-         * Good: `// This is a comment with no whitespace at the beginning`
-         */
-        'spaced-comment': ['error', 'always', { markers: [','] }],
     },
 }
