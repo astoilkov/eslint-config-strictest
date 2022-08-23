@@ -1,5 +1,9 @@
 module.exports = {
     rules: {
+        // disabled because it doesn't work when TypeScript handles all cases for a value, the simple
+        // ESLint could never know if all literal values are handled in order to produce a correct error
+        'consistent-return': 'off',
+
         // waiting
         // '@typescript-eslint/no-implicit-any-catch': 'error',
         // '@typescript-eslint/no-loop-func': 'error',
