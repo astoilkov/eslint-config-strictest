@@ -22,7 +22,7 @@
 
 ## Example configuration (with TypeScript)
 
-With `yarn install confusing-browser-globals`.
+With `yarn add confusing-browser-globals`.
 
 `.eslintrc`
 ```javascript
@@ -32,6 +32,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
 
     extends: [
+        // eslint should be first
         'strictest/eslint',
         
         'strictest/promise',
