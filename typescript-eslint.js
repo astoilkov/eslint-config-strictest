@@ -165,7 +165,7 @@ module.exports = {
          * // Good
          * import { find, merge } from 'module';
          */
-        "no-duplicate-imports": "off",
+        'no-duplicate-imports': 'off',
         '@typescript-eslint/no-duplicate-imports': ['error'],
 
         /**
