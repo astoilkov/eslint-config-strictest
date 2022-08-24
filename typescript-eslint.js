@@ -4,6 +4,9 @@ module.exports = {
         // ESLint could never know if all literal values are handled in order to produce a correct error
         'consistent-return': 'off',
 
+        // https://typescript-eslint.io/docs/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+        'no-undef': 'off',
+
         // waiting
         // '@typescript-eslint/no-implicit-any-catch': 'error',
         // '@typescript-eslint/no-loop-func': 'error',
