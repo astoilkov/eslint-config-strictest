@@ -17,14 +17,16 @@
         "unicorn"
     ],
     "scripts": {
-        "release": "np",
-        "prettier": "prettier --write --config .prettierrc.yaml {*.js,*.json}"
-    },
-    "devDependencies": {
-        "np": "^7.0.0",
-        "prettier": "^2.2.1"
+        "release": "np"
     },
     "peerDependencies": {
         "eslint": ">=7.0.0"
+    },
+    "dependencies": {
+        "confusing-browser-globals": "^1.0.11"
+    },
+    "devDependencies": {
+        "np": "^7.0.0",
+        "prettier": "^2.7.1"
     }
 }
