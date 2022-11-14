@@ -209,12 +209,6 @@ module.exports = {
 
         /**
          * #consistency
-         * Bad: `const m = require('@foo/bar/index')`, Good: `const m = require('@foo/bar')`
-         */
-        'unicorn/import-index': 'error',
-
-        /**
-         * #consistency
          * Bad: `element.setAttribute('data-foo', 'bar')`, Good: `element.dataset.foo = 'bar'`
          */
         'unicorn/prefer-dataset': 'error',
