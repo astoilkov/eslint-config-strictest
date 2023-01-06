@@ -13,6 +13,7 @@ export default {
         './eslint',
 
         './typescript-eslint',
+        './typescript-eslint-types',
         './react-hooks',
         './react',
         './unicorn',
