@@ -16,4 +16,19 @@ module.exports = {
     '@typescript-eslint/member-ordering': 'error',
     // not sure how much value it adds
     '@typescript-eslint/method-signature-style': 'error',
+
+    // - was causing problems in BetterEvents.ts
+    // - `object` is not the same as `{}`
+    // - seems to create too little value
+    '@typescript-eslint/ban-types': [
+        'error',
+        {
+            types: {
+                '{}': {
+                    message: 'Use object instead',
+                    fixWith: 'object',
+                },
+            },
+        },
+    ],
 }

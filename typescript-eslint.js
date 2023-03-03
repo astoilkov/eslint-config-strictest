@@ -41,17 +41,6 @@ module.exports = {
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
         '@typescript-eslint/no-invalid-void-type': 'error',
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
-        '@typescript-eslint/ban-types': [
-            'error',
-            {
-                types: {
-                    '{}': {
-                        message: 'Use object instead',
-                        fixWith: 'object',
-                    },
-                },
-            },
-        ],
 
         '@typescript-eslint/prefer-enum-initializers': 'error', // undocumented
 
