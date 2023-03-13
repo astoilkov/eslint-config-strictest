@@ -1,4 +1,14 @@
 module.exports = {
+    // todo: enable with value of `interface` instead of `type`
+    // remove because:
+    // - the recommended default is `interface` but we did use `type`
+    // - `interface` has better performance compared to `type`
+    /**
+     * #consistency
+     * Only define types using `type`.
+     */
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+
     /**
      * Problematic because some IDEs comment out a line without adding space after. For example,
      * WebStorm doesn't add a space when commenting out JSX.

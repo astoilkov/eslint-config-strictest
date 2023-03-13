@@ -185,12 +185,6 @@ module.exports = {
 
         /**
          * #consistency
-         * Only define types using `type`.
-         */
-        '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-
-        /**
-         * #consistency
          * Don't add `public`. Exceptions are class and object properties.
          */
         '@typescript-eslint/explicit-member-accessibility': [
