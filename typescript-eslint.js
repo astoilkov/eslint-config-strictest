@@ -103,12 +103,6 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'error',
 
         /**
-         * #consistency, #improves-code-understanding
-         * Bad: `constructor(private readonly name: string) {}`, Good: `constructor(name: string) {}`
-         */
-        '@typescript-eslint/no-parameter-properties': 'error',
-
-        /**
          * #consistency
          * Bad: `const bar = foo!!!.bar`, Good: `const bar = foo!.bar`
          */
