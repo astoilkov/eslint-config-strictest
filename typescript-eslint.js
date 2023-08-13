@@ -66,6 +66,10 @@ module.exports = {
          */
         '@typescript-eslint/prefer-for-of': 'error',
 
+        // - disable rule as it doesn't work when you do import type
+        // - we should use https://github.com/import-js/eslint-plugin-import/blob/HEAD/docs/rules/no-duplicates.md
+        'no-duplicate-imports': 'off',
+
         /**
          * #improves-code-understanding, #consistency
          * Bad: `foo && foo.a && foo.a.b && foo.a.b.c`
