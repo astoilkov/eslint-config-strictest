@@ -67,18 +67,6 @@ module.exports = {
         '@typescript-eslint/prefer-for-of': 'error',
 
         /**
-         * #improves-code-understanding
-         * @example
-         * // Bad
-         * import { find } from 'module';
-         * import { merge } from 'module';
-         * // Good
-         * import { find, merge } from 'module';
-         */
-        'no-duplicate-imports': 'off',
-        '@typescript-eslint/no-duplicate-imports': ['error'],
-
-        /**
          * #improves-code-understanding, #consistency
          * Bad: `foo && foo.a && foo.a.b && foo.a.b.c`
          * Good: `foo?.a?.b?.c`
